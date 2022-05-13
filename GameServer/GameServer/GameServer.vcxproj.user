@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_EX603|Win32'">
+    <LocalDebuggerCommand>C:\RoxGaming - Arquivos\SEASON 6\muserver-season6\GameServer\GameServer.exe</LocalDebuggerCommand>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_EX603|Win32'">
+    <LocalDebuggerWorkingDirectory>C:\RoxGaming - Arquivos\SEASON 6\muserver-season6\GameServer</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_EX603CS|Win32'">
+    <LocalDebuggerCommand>C:\RoxGaming - Emuladores Projeto\SEASON6\muserver-season6\GameServerCS\GameServer.exe</LocalDebuggerCommand>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_EX603CS|Win32'">
+    <LocalDebuggerWorkingDirectory>C:\RoxGaming - Emuladores Projeto\SEASON6\muserver-season6\GameServerCS</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <ShowAllFiles>false</ShowAllFiles>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_EX401|Win32'">
+    <LocalDebuggerCommand>C:\Projetos\muserver-season6\GameServer\GameServer.exe</LocalDebuggerCommand>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_EX401|Win32'">
+    <LocalDebuggerWorkingDirectory>C:\Projetos\muserver-season6\GameServer</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='PREMIUM|Win32'">
+    <LocalDebuggerCommand>C:\RoxGaming - Emuladores Projeto\SEASON6\muserver-season6\Tools\GetMainInfo\GetMainInfo-Premium.exe</LocalDebuggerCommand>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='PREMIUM|Win32'">
+    <LocalDebuggerWorkingDirectory>C:\RoxGaming - Emuladores Projeto\SEASON6\muserver-season6\Tools\GetMainInfo</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>

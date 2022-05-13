@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="FREE|Win32">
+      <Configuration>FREE</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="PREMIUM|Win32">
+      <Configuration>PREMIUM</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{99FEE110-4599-4DF9-A022-7CD4A72F9649}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>GetMainInfo</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='PREMIUM|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='FREE|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='PREMIUM|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='FREE|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='PREMIUM|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>C:\RoxGaming - Arquivos\SEASON 6\muserver-season6\Tools\GetMainInfo</OutDir>
+    <TargetName>$(ProjectName)-Premium</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='FREE|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>$(ProjectName)-Free</TargetName>
+    <OutDir>$(SolutionDir)Release</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='PREMIUM|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;GAMESERVER_PREMIUM=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <StackReserveSize>12097152</StackReserveSize>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='FREE|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;GAMESERVER_PREMIUM=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\..\Util\icone.ico" />
+    <None Include="icon1.ico" />
+    <None Include="maininfo.ico" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Util\CCRC32.H" />
+    <ClInclude Include="CustomBuyVip.h" />
+    <ClInclude Include="CustomCloak.h" />
+    <ClInclude Include="CustomCommandInfo.h" />
+    <ClInclude Include="CustomCrossBow.h" />
+    <ClInclude Include="CustomEarthQuakeSkill.h" />
+    <ClInclude Include="CustomEffectDynamic.h" />
+    <ClInclude Include="CustomEventTimeText.h" />
+    <ClInclude Include="CustomGloves.h" />
+    <ClInclude Include="CustomItem.h" />
+    <ClInclude Include="CustomItemDescription.h" />
+    <ClInclude Include="CustomItemPosition.h" />
+    <ClInclude Include="CustomJewel.h" />
+    <ClInclude Include="CustomJewelBank.h" />
+    <ClInclude Include="CustomLuckyWheel.h" />
+    <ClInclude Include="CustomMessage.h" />
+    <ClInclude Include="CustomMonster.h" />
+    <ClInclude Include="CustomNpcName.h" />
+    <ClInclude Include="CustomPet.h" />
+    <ClInclude Include="CustomPetEffect.h" />
+    <ClInclude Include="CustomServerInfo.h" />
+    <ClInclude Include="CustomWing.h" />
+    <ClInclude Include="CustomWIngEffect.h" />
+    <ClInclude Include="Fog.h" />
+    <ClInclude Include="ItemToolTip.h" />
+    <ClInclude Include="MemScript.h" />
+    <ClInclude Include="ModelEffect.h" />
+    <ClInclude Include="PetEffectDynamic.h" />
+    <ClInclude Include="PetGlow.h" />
+    <ClInclude Include="ReadScript.h" />
+    <ClInclude Include="RemoveExcGlow.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SceneControl.h" />
+    <ClInclude Include="SmokeEffect.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="ThemidaSDK.h" />
+    <ClInclude Include="TooltipBuff.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Util\CCRC32.Cpp" />
+    <ClCompile Include="CustomBuyVip.cpp" />
+    <ClCompile Include="CustomCloak.cpp" />
+    <ClCompile Include="CustomCommandInfo.cpp" />
+    <ClCompile Include="CustomCrossBow.cpp" />
+    <ClCompile Include="CustomEarthQuakeSkill.cpp" />
+    <ClCompile Include="CustomEffectDynamic.cpp" />
+    <ClCompile Include="CustomEventTimeText.cpp" />
+    <ClCompile Include="CustomGloves.cpp" />
+    <ClCompile Include="CustomItem.cpp" />
+    <ClCompile Include="CustomItemDescription.cpp" />
+    <ClCompile Include="CustomItemPosition.cpp" />
+    <ClCompile Include="CustomJewel.cpp" />
+    <ClCompile Include="CustomJewelBank.cpp" />
+    <ClCompile Include="CustomLuckyWheel.cpp" />
+    <ClCompile Include="CustomMessage.cpp" />
+    <ClCompile Include="CustomMonster.cpp" />
+    <ClCompile Include="CustomNpcName.cpp" />
+    <ClCompile Include="CustomPet.cpp" />
+    <ClCompile Include="CustomPetEffect.cpp" />
+    <ClCompile Include="CustomServerInfo.cpp" />
+    <ClCompile Include="CustomWing.cpp" />
+    <ClCompile Include="CustomWIngEffect.cpp" />
+    <ClCompile Include="Fog.cpp" />
+    <ClCompile Include="GetMainInfo.cpp" />
+    <ClCompile Include="ItemToolTip.cpp" />
+    <ClCompile Include="MemScript.cpp" />
+    <ClCompile Include="ModelEffect.cpp" />
+    <ClCompile Include="PetEffectDynamic.cpp" />
+    <ClCompile Include="PetGlow.cpp" />
+    <ClCompile Include="RemoveExcGlow.cpp" />
+    <ClCompile Include="SceneControl.cpp" />
+    <ClCompile Include="SmokeEffect.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='PREMIUM|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='FREE|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TooltipBuff.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GetMainInfo.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,127 @@
+C:\Users\Administrador\Desktop\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803\bin\Release\MuEditor.exe.config
+C:\Users\Administrador\Desktop\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803\bin\Release\MuEditor.exe
+C:\Users\Administrador\Desktop\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803\bin\Release\MuEditor.pdb
+C:\Users\Administrador\Desktop\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803\bin\Release\System.Web.dll
+C:\Users\Administrador\Desktop\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803\obj\Release\Properties.Resources.resources
+C:\Users\Administrador\Desktop\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803\obj\Release\MuEditor.frmBase.resources
+C:\Users\Administrador\Desktop\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803\obj\Release\MuEditor.frmAbout.resources
+C:\Users\Administrador\Desktop\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803\obj\Release\MuEditor.frmUserAdd.resources
+C:\Users\Administrador\Desktop\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803\obj\Release\MuEditor.T_CashShop_Point.resources
+C:\Users\Administrador\Desktop\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803\obj\Release\MuEditor.PentagramPanel.resources
+C:\Users\Administrador\Desktop\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803\obj\Release\MuEditor.frmGuild.resources
+C:\Users\Administrador\Desktop\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803\obj\Release\MuEditor.frmUser.resources
+C:\Users\Administrador\Desktop\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803\obj\Release\MuEditor.frmMasterLevel.resources
+C:\Users\Administrador\Desktop\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803\obj\Release\MuEditor.Properties.Resources.resources
+C:\Users\Administrador\Desktop\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803\obj\Release\MuEditor.ucBase.resources
+C:\Users\Administrador\Desktop\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803\obj\Release\MuEditor.EquipPanel.resources
+C:\Users\Administrador\Desktop\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803\obj\Release\MuEditor.frmInitEquip.resources
+C:\Users\Administrador\Desktop\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803\obj\Release\MuEditor.frmGuildUser.resources
+C:\Users\Administrador\Desktop\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803\obj\Release\MuEditor.EquipEditor.resources
+C:\Users\Administrador\Desktop\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803\obj\Release\MuEditor.CharPanel.resources
+C:\Users\Administrador\Desktop\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803\obj\Release\MuEditor.frmMain.resources
+C:\Users\Administrador\Desktop\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803\obj\Release\MuEditor.EquipProperty.resources
+C:\Users\Administrador\Desktop\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803\obj\Release\MuEditor.csproj.GenerateResource.Cache
+C:\Users\Administrador\Desktop\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803\obj\Release\MuEditor.exe
+C:\Users\Administrador\Desktop\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803\obj\Release\MuEditor.pdb
+I:\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803\obj\Release\Properties.Resources.resources
+I:\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803\obj\Release\MuEditor.frmBase.resources
+I:\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803\obj\Release\MuEditor.frmAbout.resources
+I:\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803\obj\Release\MuEditor.frmUserAdd.resources
+I:\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803\obj\Release\MuEditor.T_CashShop_Point.resources
+I:\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803\obj\Release\MuEditor.PentagramPanel.resources
+I:\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803\obj\Release\MuEditor.frmGuild.resources
+I:\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803\obj\Release\MuEditor.frmUser.resources
+I:\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803\obj\Release\MuEditor.frmMasterLevel.resources
+I:\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803\obj\Release\MuEditor.Properties.Resources.resources
+I:\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803\obj\Release\MuEditor.ucBase.resources
+I:\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803\obj\Release\MuEditor.EquipPanel.resources
+I:\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803\obj\Release\MuEditor.frmInitEquip.resources
+I:\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803\obj\Release\MuEditor.frmGuildUser.resources
+I:\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803\obj\Release\MuEditor.EquipEditor.resources
+I:\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803\obj\Release\MuEditor.CharPanel.resources
+I:\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803\obj\Release\MuEditor.frmMain.resources
+I:\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803\obj\Release\MuEditor.EquipProperty.resources
+I:\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803\obj\Release\MuEditor.csproj.GenerateResource.Cache
+I:\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803\bin\Release\MuEditor.exe.config
+I:\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803\bin\Release\MuEditor.exe
+I:\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803\bin\Release\MuEditor.pdb
+I:\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803\bin\Release\System.Web.dll
+I:\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803\obj\Release\MuEditor.exe
+I:\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803\obj\Release\MuEditor.pdb
+I:\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803 - Apaptado pro s6\bin\Release\MuEditor.exe.config
+I:\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.exe
+I:\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.pdb
+I:\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803 - Apaptado pro s6\bin\Release\MuEditor.exe
+I:\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803 - Apaptado pro s6\bin\Release\MuEditor.pdb
+I:\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803 - Apaptado pro s6\bin\Release\System.Web.dll
+I:\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803 - Apaptado pro s6\obj\Release\Properties.Resources.resources
+I:\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.frmBase.resources
+I:\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.frmAbout.resources
+I:\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.frmUserAdd.resources
+I:\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.T_CashShop_Point.resources
+I:\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.PentagramPanel.resources
+I:\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.frmGuild.resources
+I:\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.frmUser.resources
+I:\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.frmMasterLevel.resources
+I:\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.Properties.Resources.resources
+I:\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.ucBase.resources
+I:\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.EquipPanel.resources
+I:\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.frmInitEquip.resources
+I:\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.frmGuildUser.resources
+I:\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.EquipEditor.resources
+I:\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.CharPanel.resources
+I:\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.frmMain.resources
+I:\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.EquipProperty.resources
+I:\Sources\MuEmuS8Sources\MuEmu\MuEditor\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.csproj.GenerateResource.Cache
+D:\Source\Source MundoMU\Source MuEditor by louis\MuEditor EX803 - Apaptado pro s6\bin\Release\MuEditor.exe.config
+D:\Source\Source MundoMU\Source MuEditor by louis\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.exe
+D:\Source\Source MundoMU\Source MuEditor by louis\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.pdb
+D:\Source\Source MundoMU\Source MuEditor by louis\MuEditor EX803 - Apaptado pro s6\bin\Release\MuEditor.exe
+D:\Source\Source MundoMU\Source MuEditor by louis\MuEditor EX803 - Apaptado pro s6\bin\Release\MuEditor.pdb
+D:\Source\Source MundoMU\Source MuEditor by louis\MuEditor EX803 - Apaptado pro s6\bin\Release\System.Web.dll
+D:\Source\Source MundoMU\Source MuEditor by louis\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.csprojResolveAssemblyReference.cache
+D:\Source\Source MundoMU\Source MuEditor by louis\MuEditor EX803 - Apaptado pro s6\obj\Release\Properties.Resources.resources
+D:\Source\Source MundoMU\Source MuEditor by louis\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.frmBase.resources
+D:\Source\Source MundoMU\Source MuEditor by louis\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.frmAbout.resources
+D:\Source\Source MundoMU\Source MuEditor by louis\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.frmUserAdd.resources
+D:\Source\Source MundoMU\Source MuEditor by louis\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.T_CashShop_Point.resources
+D:\Source\Source MundoMU\Source MuEditor by louis\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.PentagramPanel.resources
+D:\Source\Source MundoMU\Source MuEditor by louis\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.frmGuild.resources
+D:\Source\Source MundoMU\Source MuEditor by louis\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.frmUser.resources
+D:\Source\Source MundoMU\Source MuEditor by louis\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.frmMasterLevel.resources
+D:\Source\Source MundoMU\Source MuEditor by louis\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.Properties.Resources.resources
+D:\Source\Source MundoMU\Source MuEditor by louis\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.ucBase.resources
+D:\Source\Source MundoMU\Source MuEditor by louis\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.EquipPanel.resources
+D:\Source\Source MundoMU\Source MuEditor by louis\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.frmInitEquip.resources
+D:\Source\Source MundoMU\Source MuEditor by louis\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.frmGuildUser.resources
+D:\Source\Source MundoMU\Source MuEditor by louis\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.EquipEditor.resources
+D:\Source\Source MundoMU\Source MuEditor by louis\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.CharPanel.resources
+D:\Source\Source MundoMU\Source MuEditor by louis\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.frmMain.resources
+D:\Source\Source MundoMU\Source MuEditor by louis\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.EquipProperty.resources
+D:\Source\Source MundoMU\Source MuEditor by louis\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.csproj.GenerateResource.Cache
+C:\Users\DENIS\Downloads\MuEditor EX803 - Apaptado pro s6\bin\Release\MuEditor.exe.config
+C:\Users\DENIS\Downloads\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.exe
+C:\Users\DENIS\Downloads\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.pdb
+C:\Users\DENIS\Downloads\MuEditor EX803 - Apaptado pro s6\bin\Release\MuEditor.exe
+C:\Users\DENIS\Downloads\MuEditor EX803 - Apaptado pro s6\bin\Release\MuEditor.pdb
+C:\Users\DENIS\Downloads\MuEditor EX803 - Apaptado pro s6\bin\Release\System.Web.dll
+C:\Users\DENIS\Downloads\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.csprojResolveAssemblyReference.cache
+C:\Users\DENIS\Downloads\MuEditor EX803 - Apaptado pro s6\obj\Release\Properties.Resources.resources
+C:\Users\DENIS\Downloads\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.frmBase.resources
+C:\Users\DENIS\Downloads\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.frmAbout.resources
+C:\Users\DENIS\Downloads\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.frmUserAdd.resources
+C:\Users\DENIS\Downloads\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.T_CashShop_Point.resources
+C:\Users\DENIS\Downloads\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.PentagramPanel.resources
+C:\Users\DENIS\Downloads\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.frmGuild.resources
+C:\Users\DENIS\Downloads\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.frmUser.resources
+C:\Users\DENIS\Downloads\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.frmMasterLevel.resources
+C:\Users\DENIS\Downloads\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.Properties.Resources.resources
+C:\Users\DENIS\Downloads\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.ucBase.resources
+C:\Users\DENIS\Downloads\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.EquipPanel.resources
+C:\Users\DENIS\Downloads\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.frmInitEquip.resources
+C:\Users\DENIS\Downloads\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.frmGuildUser.resources
+C:\Users\DENIS\Downloads\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.EquipEditor.resources
+C:\Users\DENIS\Downloads\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.CharPanel.resources
+C:\Users\DENIS\Downloads\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.frmMain.resources
+C:\Users\DENIS\Downloads\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.EquipProperty.resources
+C:\Users\DENIS\Downloads\MuEditor EX803 - Apaptado pro s6\obj\Release\MuEditor.csproj.GenerateResource.Cache

@@ -1,0 +1,1112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Util Files">
+      <UniqueIdentifier>{2d98712e-7860-4e76-a39c-e80cf261b364}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CustomSwitchServer">
+      <UniqueIdentifier>{1b96135d-1da8-48ce-91aa-b2ea7aadf414}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StatsAdvanced">
+      <UniqueIdentifier>{d7136280-95c8-4520-837d-f732d767778d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ItemTooltip">
+      <UniqueIdentifier>{6bf1ecff-ae0f-4058-a830-643d6b0038db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Downgrade">
+      <UniqueIdentifier>{9f733108-5918-4c49-981d-6850482cc10c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Downgrade\Interface">
+      <UniqueIdentifier>{888f996b-d8f6-4fa3-b039-10d9d9ef377d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Downgrade\ChatSystem">
+      <UniqueIdentifier>{ccde3b08-dbc5-4ab4-b427-9ee68f61afd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Downgrade\Addons">
+      <UniqueIdentifier>{32e34f9e-c9c7-48aa-a49c-537464030735}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MiniMap">
+      <UniqueIdentifier>{d8d57ae4-95ae-4c91-ac26-fb8750f7ef0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Downgrade\WindowsD">
+      <UniqueIdentifier>{f62f5f20-5bed-435e-8df9-819d3ac572fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Upgrade">
+      <UniqueIdentifier>{2aa5f483-40e3-4a0a-a499-04b232465825}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Upgrade\Interface">
+      <UniqueIdentifier>{844b54c8-cf2e-4584-a5ea-05e80b4d6bba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Upgrade\WindowStruct">
+      <UniqueIdentifier>{4d8bb230-e903-44ec-9f05-4b50fe590367}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Upgrade\Central">
+      <UniqueIdentifier>{ed546481-c80d-47fb-ac92-4e3bd60a0bae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Upgrade\LoadImages">
+      <UniqueIdentifier>{c1bc07ac-cc17-4dca-ab4e-54f1fd0eff69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Upgrade\Season15">
+      <UniqueIdentifier>{040d2d2e-cf0f-4447-be1c-cb221edbe3eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Upgrade\MuHelper">
+      <UniqueIdentifier>{9b8340b7-17de-4808-9712-f6e29be4b208}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Upgrade\ChatCore">
+      <UniqueIdentifier>{2e896c61-4033-48db-b103-a8258b0ed980}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MultiCharacter">
+      <UniqueIdentifier>{f59c88a4-c2c8-489b-b3a6-b2969eababea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RemoveGlowItem">
+      <UniqueIdentifier>{9e9db7a0-a7f0-4f5a-b91c-a22f74a4883c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SceneControl">
+      <UniqueIdentifier>{fb115a78-cf56-4972-8fd5-41c9c5905fd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ExpandedCharacters">
+      <UniqueIdentifier>{ae79203b-94ad-4724-8c7c-08af850f88b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Log">
+      <UniqueIdentifier>{8ba349c2-4ab7-4010-bd59-5f02ef3801ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BankUpgrade">
+      <UniqueIdentifier>{96b080a0-3d79-4917-880d-b299a0a39216}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StoreSearch">
+      <UniqueIdentifier>{882a88cc-1139-4242-9904-d72b7f881ffd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Downgrade\Season 2">
+      <UniqueIdentifier>{0ffebd3e-53e1-4d65-a76a-a4309c5c5824}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Downgrade\Season 2\SelectCharacter">
+      <UniqueIdentifier>{bdcc4ca9-847a-4eb0-8f0c-9530ec174026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Downgrade\Season 2\SelectServer">
+      <UniqueIdentifier>{0140d62e-637e-45e3-a9fa-405f3efb1732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Upgrade\Season8">
+      <UniqueIdentifier>{bbc6875f-c6d0-4b62-a083-1cc45aaf07e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Upgrade\Season8\SceneSystemS8">
+      <UniqueIdentifier>{b4b41818-21f8-44a9-a0dc-6b41425bfd89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Downgrade\Season 4">
+      <UniqueIdentifier>{9eb748af-6650-48d4-9e88-c45eb97c7f70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Downgrade\Season 0">
+      <UniqueIdentifier>{afe69ff9-27a1-4c91-8705-a7abe56d8d95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GlobalMessage">
+      <UniqueIdentifier>{3cf9d237-a0af-4c36-ba45-678b3cdfc994}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PlayerSystem">
+      <UniqueIdentifier>{83c11715-e898-4d4e-bab0-cdf230084a05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Downgrade\PartySystem">
+      <UniqueIdentifier>{61079e49-5be4-48e4-ac35-82ca938f541e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PetSkillManager">
+      <UniqueIdentifier>{fab0a110-29dd-4637-a8fd-c1eeba3153ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ExperienceSystem">
+      <UniqueIdentifier>{494ee883-9cf4-44da-9993-926dbbf2f24f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PetEffect">
+      <UniqueIdentifier>{e1a4209f-82d5-42ee-911e-40d05f1384b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NewController">
+      <UniqueIdentifier>{de82e531-76bb-4ce5-8fdc-f490398c94a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Minimize">
+      <UniqueIdentifier>{136e216f-e450-4fb8-b389-3de353747355}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Console">
+      <UniqueIdentifier>{5df63427-b990-4d61-ae58-c6e551e93f69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Downgrade\Season 0\97d">
+      <UniqueIdentifier>{779a5c50-8708-41da-84f0-a2356277ce65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OffMuHelper">
+      <UniqueIdentifier>{998f5279-74a2-448a-970c-8a6a15fdc456}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ChangeSystem">
+      <UniqueIdentifier>{79e1ec87-05f9-4c43-914a-1e928d931c94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Windows">
+      <UniqueIdentifier>{9e4ddfb8-b943-4906-bba3-342d973d0c54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Windows\Antilag">
+      <UniqueIdentifier>{695fd405-c66a-4b1a-b4c7-a5a65427eaa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Windows\ServerSwitch">
+      <UniqueIdentifier>{c3c71b2a-3cc5-47f1-84a0-2eb035d68427}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Windows\BuyVip">
+      <UniqueIdentifier>{68f98d90-6bab-4a13-abce-cbc9cb99654a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Windows\MenuCustom">
+      <UniqueIdentifier>{ec16ab88-066e-4a5b-8bfc-f18a60119f9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Windows\Store">
+      <UniqueIdentifier>{58e0d452-e4da-4e11-aafb-d332d755ee00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MuunSystem">
+      <UniqueIdentifier>{66246cbf-e2aa-4b1e-afd1-82d64b5700f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MuunSystem\MuunOption">
+      <UniqueIdentifier>{5d78a560-6d9a-4bec-b361-37b5022f4f2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MuunSystem\NewUIButton">
+      <UniqueIdentifier>{10e7adc5-087a-467e-80b9-0a5bb0ac0457}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MuunSystem\UIControl">
+      <UniqueIdentifier>{61b353f5-f9f0-42be-a3c8-2649bbf8964b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LoginBox">
+      <UniqueIdentifier>{407fc346-71b7-4695-a925-40e2a9224ba2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Windows\MenuOpt">
+      <UniqueIdentifier>{29b6d552-95e5-4ee7-8a9f-732abafd296a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BuffIcon">
+      <UniqueIdentifier>{8c574529-f6fe-44aa-9e27-a369ebb9fcaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ModelEffect">
+      <UniqueIdentifier>{1680c11d-3110-4289-bd7b-49a80545e2e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Windows\OpenViewSetItem">
+      <UniqueIdentifier>{a5fcc22b-0ad1-437c-989f-e76d05e144c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SocketItem">
+      <UniqueIdentifier>{b5bdac56-d26e-44c6-8a10-f62d98f1d434}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TerrainSystem">
+      <UniqueIdentifier>{a15a821f-240b-4153-9203-42ac10b62a66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MuunSystem\NewUIPetInfoWindow">
+      <UniqueIdentifier>{5ffbc6a1-c081-4960-9dab-ff38440e878a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MuunSystem\NewUISystem">
+      <UniqueIdentifier>{7a02a2cd-1ebf-40cf-99e5-72c1cc3bb81d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MuunSystem\ScriptItem">
+      <UniqueIdentifier>{09d5527e-84c9-4828-8b71-8940c4bfb089}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Windows\NewInfo">
+      <UniqueIdentifier>{cfdcad5c-adf7-4c8b-af5d-63bf1d6dd60a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="AddressTable1.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="AddressTable2.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="AddressTable3.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\icone.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Protect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Util\CCRC32.H">
+      <Filter>Util Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HackCheck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomWing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomJewel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resolution.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Reconnect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Offset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WingInvisible.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WingEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Import.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TMemory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolKit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemAsm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomRankUser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomMonster.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MemScript.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomRanking.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Fix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomBuyVip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomEventTime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomCommandInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OffTrade.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomItemDescription.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemShopValue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemSmoke.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomFog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomNpcName.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomGloves.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomBow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemPost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Macro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MuObjChatData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MuObjItemData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PostItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zzzmathlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemSetOption.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomSCharAnimate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NewFont.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomClickNPC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomPet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Pet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PetHook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PetProtocol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomCape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomCloak.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatExpanded.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckSpeed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomServerInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadScript.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomJewelBank.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomPetEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomItemPosition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemPosition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleGloves.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomLuckyWheel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Connection.h">
+      <Filter>Source Files\CustomSwitchServer</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectServer.h">
+      <Filter>Source Files\CustomSwitchServer</Filter>
+    </ClInclude>
+    <ClInclude Include="CriticalSection.h">
+      <Filter>Source Files\CustomSwitchServer</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerInfo.h">
+      <Filter>Source Files\CustomSwitchServer</Filter>
+    </ClInclude>
+    <ClInclude Include="SwitchServer.h">
+      <Filter>Source Files\CustomSwitchServer</Filter>
+    </ClInclude>
+    <ClInclude Include="CMacroUIEx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NewInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomNewButtonD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomEarthQuakeSkill.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CSCharacterS13.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PetGlow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Performance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StatsAdvanced.h">
+      <Filter>Source Files\StatsAdvanced</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\RotateDamage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\CameraSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemTooltip.h">
+      <Filter>Source Files\ItemTooltip</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomInterface.h">
+      <Filter>Source Files\Downgrade\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatSystem.h">
+      <Filter>Source Files\Downgrade\ChatSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Addons.h">
+      <Filter>Source Files\Downgrade\Addons</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniMap.h">
+      <Filter>Source Files\MiniMap</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniMapInfo.h">
+      <Filter>Source Files\MiniMap</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsD.h">
+      <Filter>Source Files\Downgrade\WindowsD</Filter>
+    </ClInclude>
+    <ClInclude Include="Inter803.h">
+      <Filter>Source Files\Upgrade\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsStruct.h">
+      <Filter>Source Files\Upgrade\WindowStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Central.h">
+      <Filter>Source Files\Upgrade\Central</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadImages803.h">
+      <Filter>Source Files\Upgrade\LoadImages</Filter>
+    </ClInclude>
+    <ClInclude Include="Season15.h">
+      <Filter>Source Files\Upgrade\Season15</Filter>
+    </ClInclude>
+    <ClInclude Include="MuHelper.h">
+      <Filter>Source Files\Upgrade\MuHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatCore.h">
+      <Filter>Source Files\Upgrade\ChatCore</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiCharacter.h">
+      <Filter>Source Files\MultiCharacter</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderExcGlow.h">
+      <Filter>Source Files\RemoveGlowItem</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneControl.h">
+      <Filter>Source Files\SceneControl</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpandedCharacters.h">
+      <Filter>Source Files\ExpandedCharacters</Filter>
+    </ClInclude>
+    <ClInclude Include="InfoLog.h">
+      <Filter>Source Files\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="BankUpgrade.h">
+      <Filter>Source Files\BankUpgrade</Filter>
+    </ClInclude>
+    <ClInclude Include="StoreSearch.h">
+      <Filter>Source Files\StoreSearch</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectCharacterS2.h">
+      <Filter>Source Files\Downgrade\Season 2\SelectCharacter</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectServerS2.h">
+      <Filter>Source Files\Downgrade\Season 2\SelectServer</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Season4.h">
+      <Filter>Source Files\Downgrade\Season 4</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalMessage.h">
+      <Filter>Source Files\GlobalMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerSystem.h">
+      <Filter>Source Files\PlayerSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="PartySystem.h">
+      <Filter>Source Files\Downgrade\PartySystem</Filter>
+    </ClInclude>
+    <ClInclude Include="PetSkillManager.h">
+      <Filter>Source Files\PetSkillManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ExperienceSystem.h">
+      <Filter>Source Files\ExperienceSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="PetEffectDynamic.h">
+      <Filter>Source Files\PetEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="NewController.h">
+      <Filter>Source Files\NewController</Filter>
+    </ClInclude>
+    <ClInclude Include="Minimize.h">
+      <Filter>Source Files\Minimize</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>Source Files\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="procesos.h">
+      <Filter>Source Files\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="Season0.h">
+      <Filter>Source Files\Downgrade\Season 0</Filter>
+    </ClInclude>
+    <ClInclude Include="OffMuHelper.h">
+      <Filter>Source Files\OffMuHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeSystem.h">
+      <Filter>Source Files\ChangeSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Antilag.h">
+      <Filter>Source Files\Windows\Antilag</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerSwitch.h">
+      <Filter>Source Files\Windows\ServerSwitch</Filter>
+    </ClInclude>
+    <ClInclude Include="BuyVip.h">
+      <Filter>Source Files\Windows\BuyVip</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuCustom.h">
+      <Filter>Source Files\Windows\MenuCustom</Filter>
+    </ClInclude>
+    <ClInclude Include="Store.h">
+      <Filter>Source Files\Windows\Store</Filter>
+    </ClInclude>
+    <ClInclude Include="SEASON3B.h">
+      <Filter>Source Files\MuunSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginBox.h">
+      <Filter>Source Files\LoginBox</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuOpt.h">
+      <Filter>Source Files\Windows\MenuOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="BuffIcon.h">
+      <Filter>Source Files\BuffIcon</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelEffect.h">
+      <Filter>Source Files\ModelEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="QuickCommandWindow.h">
+      <Filter>Source Files\Windows\OpenViewSetItem</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketItem.h">
+      <Filter>Source Files\SocketItem</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainSystem.h">
+      <Filter>Source Files\TerrainSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="MuunOption.h">
+      <Filter>Source Files\MuunSystem\MuunOption</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptItem.h">
+      <Filter>Source Files\MuunSystem\ScriptItem</Filter>
+    </ClInclude>
+    <ClInclude Include="UIControl.h">
+      <Filter>Source Files\MuunSystem\UIControl</Filter>
+    </ClInclude>
+    <ClInclude Include="NewUISystem.h">
+      <Filter>Source Files\MuunSystem\NewUISystem</Filter>
+    </ClInclude>
+    <ClInclude Include="NewUIPetInfoWindow.h">
+      <Filter>Source Files\MuunSystem\NewUIPetInfoWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="NewUIButton.h">
+      <Filter>Source Files\MuunSystem\NewUIButton</Filter>
+    </ClInclude>
+    <ClInclude Include="_struct.h">
+      <Filter>Source Files\MuunSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="NewInfo.h">
+      <Filter>Source Files\Windows\NewInfo</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HackCheck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Protect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Util\CCRC32.Cpp">
+      <Filter>Util Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomWing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomJewel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resolution.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Reconnect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomMessage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WingInvisible.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WingEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TMemory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolKit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemAsm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomRankUser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomMonster.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MemScript.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomRanking.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Fix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomBuyVip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomEventTime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomCommandInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OffTrade.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomItemDescription.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemShopValue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemSmoke.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomFog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomNpcName.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomGloves.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomBow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PostItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemSetOption.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomSCharAnimate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NewFont.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomClickNPC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomPet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PetHook.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PetProtocol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomCape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomCloak.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatExpanded.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckSpeed.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomServerInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomJewelBank.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomPetEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomItemPosition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemPosition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleGloves.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomLuckyWheel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Connection.cpp">
+      <Filter>Source Files\CustomSwitchServer</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectServer.cpp">
+      <Filter>Source Files\CustomSwitchServer</Filter>
+    </ClCompile>
+    <ClCompile Include="CriticalSection.cpp">
+      <Filter>Source Files\CustomSwitchServer</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerInfo.cpp">
+      <Filter>Source Files\CustomSwitchServer</Filter>
+    </ClCompile>
+    <ClCompile Include="SwitchServer.cpp">
+      <Filter>Source Files\CustomSwitchServer</Filter>
+    </ClCompile>
+    <ClCompile Include="CMacroUIEx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NewInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomNewButtonD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomEarthQuakeSkill.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CSCharacterS13.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PetGlow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Performance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StatsAdvanced.cpp">
+      <Filter>Source Files\StatsAdvanced</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\RotateDamage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\CameraSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemTooltip.cpp">
+      <Filter>Source Files\ItemTooltip</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomInterface.cpp">
+      <Filter>Source Files\Downgrade\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatSystem.cpp">
+      <Filter>Source Files\Downgrade\ChatSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Addons.cpp">
+      <Filter>Source Files\Downgrade\Addons</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniMap.cpp">
+      <Filter>Source Files\MiniMap</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniMapInfo.cpp">
+      <Filter>Source Files\MiniMap</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsD.cpp">
+      <Filter>Source Files\Downgrade\WindowsD</Filter>
+    </ClCompile>
+    <ClCompile Include="Inter803.cpp">
+      <Filter>Source Files\Upgrade\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsStruct.cpp">
+      <Filter>Source Files\Upgrade\WindowStruct</Filter>
+    </ClCompile>
+    <ClCompile Include="Central.cpp">
+      <Filter>Source Files\Upgrade\Central</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadImages803.cpp">
+      <Filter>Source Files\Upgrade\LoadImages</Filter>
+    </ClCompile>
+    <ClCompile Include="Season15.cpp">
+      <Filter>Source Files\Upgrade\Season15</Filter>
+    </ClCompile>
+    <ClCompile Include="MuHelper.cpp">
+      <Filter>Source Files\Upgrade\MuHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatCore.cpp">
+      <Filter>Source Files\Upgrade\ChatCore</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiCharacter.cpp">
+      <Filter>Source Files\MultiCharacter</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderExcGlow.cpp">
+      <Filter>Source Files\RemoveGlowItem</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneControl.cpp">
+      <Filter>Source Files\SceneControl</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpandedCharacters.cpp">
+      <Filter>Source Files\ExpandedCharacters</Filter>
+    </ClCompile>
+    <ClCompile Include="InfoLog.cpp">
+      <Filter>Source Files\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="BankUpgrade.cpp">
+      <Filter>Source Files\BankUpgrade</Filter>
+    </ClCompile>
+    <ClCompile Include="StoreSearch.cpp">
+      <Filter>Source Files\StoreSearch</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectCharacterS2.cpp">
+      <Filter>Source Files\Downgrade\Season 2\SelectCharacter</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectServerS2.cpp">
+      <Filter>Source Files\Downgrade\Season 2\SelectServer</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneSystemS8.cpp">
+      <Filter>Source Files\Upgrade\Season8\SceneSystemS8</Filter>
+    </ClCompile>
+    <ClCompile Include="Season4.cpp">
+      <Filter>Source Files\Downgrade\Season 4</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalMessage.cpp">
+      <Filter>Source Files\GlobalMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerSystem.cpp">
+      <Filter>Source Files\PlayerSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="PartySystem.cpp">
+      <Filter>Source Files\Downgrade\PartySystem</Filter>
+    </ClCompile>
+    <ClCompile Include="PetSkillManager.cpp">
+      <Filter>Source Files\PetSkillManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ExperienceSystem.cpp">
+      <Filter>Source Files\ExperienceSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="PetEffectDynamic.cpp">
+      <Filter>Source Files\PetEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="NewController.cpp">
+      <Filter>Source Files\NewController</Filter>
+    </ClCompile>
+    <ClCompile Include="Minimize.cpp">
+      <Filter>Source Files\Minimize</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>Source Files\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="Season0.cpp">
+      <Filter>Source Files\Downgrade\Season 0</Filter>
+    </ClCompile>
+    <ClCompile Include="OffMuHelper.cpp">
+      <Filter>Source Files\OffMuHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeSystem.cpp">
+      <Filter>Source Files\ChangeSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Antilag.cpp">
+      <Filter>Source Files\Windows\Antilag</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerSwitch.cpp">
+      <Filter>Source Files\Windows\ServerSwitch</Filter>
+    </ClCompile>
+    <ClCompile Include="BuyVip.cpp">
+      <Filter>Source Files\Windows\BuyVip</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuCustom.cpp">
+      <Filter>Source Files\Windows\MenuCustom</Filter>
+    </ClCompile>
+    <ClCompile Include="Store.cpp">
+      <Filter>Source Files\Windows\Store</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginBox.cpp">
+      <Filter>Source Files\LoginBox</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuOpt.cpp">
+      <Filter>Source Files\Windows\MenuOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="BuffIcon.cpp">
+      <Filter>Source Files\BuffIcon</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelEffect.cpp">
+      <Filter>Source Files\ModelEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="QuickCommandWindow.cpp">
+      <Filter>Source Files\Windows\OpenViewSetItem</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketItem.cpp">
+      <Filter>Source Files\SocketItem</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainSystem.cpp">
+      <Filter>Source Files\TerrainSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="MuunOption.cpp">
+      <Filter>Source Files\MuunSystem\MuunOption</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptItem.cpp">
+      <Filter>Source Files\MuunSystem\ScriptItem</Filter>
+    </ClCompile>
+    <ClCompile Include="UIControl.cpp">
+      <Filter>Source Files\MuunSystem\UIControl</Filter>
+    </ClCompile>
+    <ClCompile Include="NewUISystem.cpp">
+      <Filter>Source Files\MuunSystem\NewUISystem</Filter>
+    </ClCompile>
+    <ClCompile Include="NewUIPetInfoWindow.cpp">
+      <Filter>Source Files\MuunSystem\NewUIPetInfoWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="NewUIButton.cpp">
+      <Filter>Source Files\MuunSystem\NewUIButton</Filter>
+    </ClCompile>
+    <ClCompile Include="NewInfo.cpp">
+      <Filter>Source Files\Windows\NewInfo</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Main.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
