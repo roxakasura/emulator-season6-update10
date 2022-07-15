@@ -111,6 +111,7 @@
 #include "ModelEffect.h"
 #include "QuickCommandWindow.h"
 #include "TerrainSystem.h"
+#include "LoginRemake.h"
 //#include "WingEffect.h"
 
 HINSTANCE hins;
@@ -144,9 +145,32 @@ BOOL __stdcall IsExcellentNoName(__int16 IsExcNoName)
   return IsExcNoName == 19 || IsExcNoName == 2066 || IsExcNoName == 2570 || IsExcNoName == 1037 || IsExcNoName == 2596;
 }
 
+__declspec(naked) void RuneBladeSkill()
+{
+	static DWORD Address = 0x005B55EA;
+
+	_asm
+	{
+		CMP DWORD PTR SS:[EBP-0x8],0
+		JE Next1
+Next1 :
+		CMP DWORD PTR SS:[EBP-0x8],1
+		JE Next2
+Next2 :
+		CMP DWORD PTR SS:[EBP-0x8],2
+		JE Exit
+Exit:
+		JMP [Address]
+	}
+
+}
+
 extern "C" _declspec(dllexport) void EntryProc() // OK
 {
 	_mkdir("ScreenShots");
+
+	MemorySet(0x005B55D8,0x90,0x6);
+	SetCompleteHook(0xE9,0x005B55D8,&RuneBladeSkill);
 
 	CreateThread(0, 0, (LPTHREAD_START_ROUTINE)StartAddress, 0, 0, 0);
 
@@ -155,14 +179,17 @@ extern "C" _declspec(dllexport) void EntryProc() // OK
 		MessageBox(0,"Main not found or invalid!","Error",MB_OK | MB_ICONERROR);
 		ExitProcess(0);
 	}
-	
+
+	if(gProtect.m_MainInfo.SelectServerType == 1)
+	{
+		RemakeLoginLoad();
+	}
 	//Console.Write(Testando, 0, 0);
 
 	m_Keyboard1 = SetWindowsHookEx(WH_KEYBOARD, KeyboardProc, NULL, GetCurrentThreadId());
 	m_Keyboard2 = SetWindowsHookEx(WH_KEYBOARD_LL, LL_KeyboardProc, NULL, 0);
-
+	
 #if(MAIN_UPDATE>9)
-	//MemorySet(0x00835CDB,0x90,0x5);
 	AutoLogin.Load();
 	gSocketItem.Load();
 	InitTerrain();
@@ -177,6 +204,7 @@ extern "C" _declspec(dllexport) void EntryProc() // OK
 	{
 		gMuHelper.HelperOffline(); 
 	}
+
 
 	//StoreFixload();
 	ItemSizeFixLoad();
@@ -196,6 +224,8 @@ extern "C" _declspec(dllexport) void EntryProc() // OK
 		LoadPartySystem();
 		MemorySet(0x0057655B, 0x90, 0x5); //remove +15
 	}
+
+	//MemorySet(0x005ADE80,0x90,0x5);
 
 	//LoginWinLoad();
 	 

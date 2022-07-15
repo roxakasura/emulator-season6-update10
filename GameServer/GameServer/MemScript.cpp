@@ -68,6 +68,13 @@ bool CMemScript::SetBuffer(char* path) // OK
 		return 0;
 	}
 
+	if(this->m_buff[0] == char(0xEF) && this->m_buff[1] == char(0xBB) && this->m_buff[2] == char(0xBF))
+	{
+		this->SetLastError(5);
+		CloseHandle(file);
+		return 0;
+	}
+
 	CloseHandle(file);
 
 	this->m_count = 0;
@@ -267,6 +274,9 @@ void CMemScript::SetLastError(int error) // OK
 			break;
 		case 4:
 			wsprintf(this->m_LastError,MEM_SCRIPT_ERROR_CODE4,this->m_path);
+			break;
+		case 5:
+			wsprintf(this->m_LastError,MEM_SCRIPT_ERROR_CODE5,this->m_path);
 			break;
 		default:
 			wsprintf(this->m_LastError,MEM_SCRIPT_ERROR_CODEX,this->m_path,error);

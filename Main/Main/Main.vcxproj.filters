@@ -208,6 +208,9 @@
     <Filter Include="Source Files\Windows\NewInfo">
       <UniqueIdentifier>{cfdcad5c-adf7-4c8b-af5d-63bf1d6dd60a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Downgrade\LoginRemake">
+      <UniqueIdentifier>{3a8c4531-5bd3-40ae-b725-24f3a9ee59b2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="ReadMe.txt" />
@@ -684,6 +687,9 @@
     <ClInclude Include="NewInfo.h">
       <Filter>Source Files\Windows\NewInfo</Filter>
     </ClInclude>
+    <ClInclude Include="LoginRemake.h">
+      <Filter>Source Files\Downgrade\LoginRemake</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -1102,6 +1108,9 @@
     </ClCompile>
     <ClCompile Include="NewInfo.cpp">
       <Filter>Source Files\Windows\NewInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginRemake.cpp">
+      <Filter>Source Files\Downgrade\LoginRemake</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

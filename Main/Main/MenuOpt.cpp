@@ -334,8 +334,8 @@ void ItemEquippedStatus(int Status)
 
 void MenuLoad()
 {
-	SetCompleteHook(0xE9, 0x008494B0, &RenderWindowsOptionOriginal); //fundo do painel
-	SetCompleteHook(0xE9, 0x00849730, &RenderOptionTextOriginal);  //textos do painel
-	SetCompleteHook(0xE9, 0x008499E0, &RenderOptionPanelOriginal); //opções do painel
-	MemorySet(0x00848CB6,0x90,0x5); //REMOVE CLOSE BUTTON
+	//SetCompleteHook(0xE9, 0x008494B0, &RenderWindowsOptionOriginal); //fundo do painel
+	//SetCompleteHook(0xE9, 0x00849730, &RenderOptionTextOriginal);  //textos do painel
+	//SetCompleteHook(0xE9, 0x008499E0, &RenderOptionPanelOriginal); //opções do painel
+	//MemorySet(0x00848CB6,0x90,0x5); //REMOVE CLOSE BUTTON
 }

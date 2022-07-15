@@ -57,23 +57,28 @@ void cCEffectPet::addEffect(int a1, int a2, int a3, int a4) // OK
 	{
 		if ( gCustomPet2.CheckCustomPetByItem(*(DWORD *)(a1 + 48) - 1171) )
 		{
-			//-- Sombra
-			if ( pMapNumber != 10 && !pCheckMap(pMapNumber) )	
+			if (gCustomPet2.GetInfoPetType(*(DWORD*)(a1 + 48) - 1171) == 1 ||
+				gCustomPet2.GetInfoPetType(*(DWORD*)(a1 + 48) - 1171) == 2 || 
+				gCustomPet2.GetInfoPetType(*(DWORD*)(a1 + 48) - 1171) == 3)
 			{
-				v42 = sub_4DB250();
-				if ( !sub_4E44A0(v42 + 132) )
+				//-- Sombra
+				if (pMapNumber != 10 && !pCheckMap(pMapNumber))
 				{
-					if(*(DWORD *)(a1 + 48) != 8045) //não apagar, futuramente usarei.
+					v42 = sub_4DB250();
+					if (!sub_4E44A0(v42 + 132))
 					{
-						EnableAlphaTest( 1 );
-						if ( pMapNumber == 7 )
-							glColor4f(0.0, 0.0, 0.0, 0.2);
-						else
-							glColor4f(0.0, 0.0, 0.0, 0.69558);
-						//sub_54A270(v401, *(_DWORD *)(a1 + 68), v399, -1, -1);
-						ShadowMaster(ModelE, -1, 5, -1, -1);
-						pGLSwitch();
-						EnableAlphaTest(0);
+						if (*(DWORD*)(a1 + 48) != 8045) //não apagar, futuramente usarei.
+						{
+							EnableAlphaTest(1);
+							if (pMapNumber == 7)
+								glColor4f(0.0, 0.0, 0.0, 0.2);
+							else
+								glColor4f(0.0, 0.0, 0.0, 0.69558);
+							//sub_54A270(v401, *(_DWORD *)(a1 + 68), v399, -1, -1);
+							ShadowMaster(ModelE, -1, 5, -1, -1);
+							pGLSwitch();
+							EnableAlphaTest(0);
+						}
 					}
 				}
 			}

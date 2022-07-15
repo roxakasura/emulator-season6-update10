@@ -2079,9 +2079,9 @@ void InitInter3()
 	//party bar en Y
 	SetByte(0x0085AF21,0x15);	//<-
 	//Local calls from 007E00B1, 007E020C, 007E0298	//PetHPBarRemake
-	SetCompleteHook(0xE8, 0x007E00B1, &PetHPBarRemake);
-	SetCompleteHook(0xE8, 0x007E020C, &PetSpiritHPBarRemake);
-	SetCompleteHook(0xE8, 0x007E0298, &PetSpiritHPBarRemake);
+	//SetCompleteHook(0xE8, 0x007E00B1, &PetHPBarRemake);
+	//SetCompleteHook(0xE8, 0x007E020C, &PetSpiritHPBarRemake);
+	//SetCompleteHook(0xE8, 0x007E0298, &PetSpiritHPBarRemake);
 
 	//SetOp((LPVOID)0x00425472,(LPVOID)SetSlidePosition,ASM::CALL);
 	//SetOp((LPVOID)0x00425484,(LPVOID)SetSlidePosition,ASM::CALL);
@@ -2097,7 +2097,7 @@ void InitInter3()
 	MemorySet(0x007DBA69, 0x90, 0x05);
 	SetCompleteHook(0xE9, 0x00813C11, &ToolTipSkill);
 //	SetCompleteHook(0xE9, 0x007DFB01, &PetBlackSize);
-	SetCompleteHook(0xE9, 0x007DFB9F, &PetHPMove);
+//	SetCompleteHook(0xE9, 0x007DFB9F, &PetHPMove);
 //	SetCompleteHook(0xE9, 0x007DFBE7, &PetNameMove);
 
 //	SetRange((LPVOID)0x00787768, 0x9, ASM::NOP);

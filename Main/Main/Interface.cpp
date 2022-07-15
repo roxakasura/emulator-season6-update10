@@ -241,7 +241,7 @@ void Interface::Load()
 	this->BindObject(eVip_CLOSE, 0x7EC5, 36, 29, -1, -1);
 	this->BindObject(eVip_STATUS, 0x7A5E, 108, 29, -1, -1);
 
-	if(gProtect.m_MainInfo.CustomInterfaceType <=2)
+	if(gProtect.m_MainInfo.CustomInterfaceType <=2 || gProtect.m_MainInfo.CustomInterfaceType == 4)
 	{
 		//Menu
 		this->BindObject(eMenu_MAIN, 0x7A5A, 222, 240, -1, -1);
@@ -518,6 +518,10 @@ void Interface::LoadImages()
 	//MiniMap
 	pLoadImage("Custom\\Maps\\PlayerPoint.jpg", 31460, 0x2600, 0x2900, 1, 0);
 	pLoadImage("Custom\\Interface\\none.tga", 31461, 0x2601, 0x2900, 1, 0);
+	//Downgrade
+	pLoadImage("Logo\\0Account_new.tga", 35124, 0x2601, 0x2900, 1, 0);
+	pLoadImage("Logo\\0On_Botton.jpg", 35125, 0x2601, 0x2900, 1, 0);
+	pLoadImage("Logo\\0On_Botton2.jpg", 35126, 0x2601, 0x2900, 1, 0);
 	//--
 	pLoadImage("Custom\\Maps\\edBtUcx.tga", 31463, 0x2601, 0x2900, 1, 0); //-- Dungeon
 	pLoadImage("Custom\\Maps\\edBtUcx_1.tga", 31464, 0x2601, 0x2900, 1, 0); //-- Dungeon
@@ -542,7 +546,6 @@ void Interface::LoadImages()
 		pLoadImage("Logo\\New_Login_Back02.jpg", 500022, GL_LINEAR, GL_REPEAT, 1, 0);
 	}
 	
-		LoadBitmapA("Logo\\0Account_new.tga", 531020, GL_LINEAR, GL_REPEAT, 1, 0);	
 	if(gProtect.m_MainInfo.SelectServerType == 1)
 	{		
 		LoadBitmapA("Logo\\MU-logo.tga", 531018, GL_LINEAR, GL_REPEAT, 1, 0);	
@@ -881,6 +884,7 @@ void Interface::Work()
 			gInterface.PetX = 0;
 		}
 	}
+
 	//Close Cliente Force Fix
 	if (*(int*)0x0E609E8 == 5 && (char*)*(DWORD*)(0x8128AC4)== NULL)
 	{

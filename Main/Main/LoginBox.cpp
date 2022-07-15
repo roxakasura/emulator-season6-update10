@@ -6,6 +6,8 @@
 #include "Offset.h"
 #include "Defines.h"
 #include "NewFont.h"
+#include "CSCharacterS13.h"
+#include "Protect.h"
 
 int AutomaticLogin;
 
@@ -89,7 +91,7 @@ void CButtonAutoLogin(int This, int a2)
 
 	float startX = (640.0 - getX(329)) / 2,
 	startY = (480.0 - getY(245)) * 2.0 / 3.0;
-
+	
 	int Struct = _Instance() + 16968;
 
 	if (IsCursorInZone(startX + getX(246.0), startY + getY(156), 15, 15)) 
@@ -131,7 +133,7 @@ void TextLogin(int X, int Y, LPCTSTR Text)
 {
 	float startX = (640.0 - getX(329)) / 2,
 	startY = (480.0 - getY(245)) * 2.0 / 3.0;
-
+	
 	pDrawText(pTextThis(), X, Y, Text, 0, 0, (PINT)1, 0);
 	pDrawText(pTextThis(), startX + getX(124), startY + getY(158), "Save password", getX(120), 0, (PINT)4, 0);
 }
@@ -162,12 +164,14 @@ void cAutoLogin::Load()
 	}
 	
 	//end
-
-	SetCompleteHook(0xE8, 0x0040B635, &TextLogin);
-	SetCompleteHook(0xE8, 0x0040B5A9, &CButtonAutoLogin);
-	SetCompleteHook(0xE8, 0x0040B400, &DoRequestLogin);
-	SetCompleteHook(0xE8, 0x0040B44F, &DoRequestLogin);
-	SetCompleteHook(0xE8, 0x00483711, &DoLoginWinCreate);
+	if(gProtect.m_MainInfo.SelectServerType != 1)
+	{
+		SetCompleteHook(0xE8, 0x0040B635, &TextLogin);
+	}
+	//SetCompleteHook(0xE8, 0x0040B5A9, &CButtonAutoLogin);
+	//SetCompleteHook(0xE8, 0x0040B400, &DoRequestLogin);
+	//SetCompleteHook(0xE8, 0x0040B44F, &DoRequestLogin);
+	//SetCompleteHook(0xE8, 0x00483711, &DoLoginWinCreate);
 }	
 
 //#include "stdafx.h"

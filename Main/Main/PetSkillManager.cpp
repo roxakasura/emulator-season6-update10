@@ -125,11 +125,11 @@ __declspec(naked) void FenrirPurpleSkill()
 		FLD DWORD PTR DS : [D23510]
 		FSTP DWORD PTR SS : [EBP - 0xA0]
 		MOV DWORD PTR SS : [EBP - 0x9C], 0x8
-		MOV EDI, 0x005E0BAA
+		MOV EDI, 0x005E0BAA // JMP FINAL
 		JMP EDI
 
 	Exit :
-		MOV EDI, 0x005E0B48
+		MOV EDI, 0x005E0B48 // EM BAIXO DO JMP
 		JMP EDI
 	}
 }

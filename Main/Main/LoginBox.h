@@ -1,7 +1,10 @@
 #pragma once
 #define InputBox_GetText					((void(__thiscall*)(int thisa, LPSTR lpString, int nMaxCount)) 0x004217D0)
 #define InputBox_SetText					((void(__thiscall*)(int thisa, const char* pszText)) 0x00421830)
+
 #define RequestLogin						((int(__thiscall*)(int This)) 0x0040B7B0)
+#define CancelLogin							((int(__thiscall*)(int This)) 0x0040BBC0)
+
 #define Sprite_SetPosition					((void(__thiscall*)(BYTE * CButton, int cx, int cy, int eChangedPram)) 0x00416640)
 #define CUIRenderText_SetFont				((int(__thiscall*)(int This, int a2)) 0x00420120)
 #define pTextThis							((LPVOID(*)()) 0x0041FE10)
@@ -16,6 +19,8 @@
 #define pIsKeyRelease						((bool(__cdecl*)(int)) 0x791050)
 
 bool IsCursorInZone(short x, short y, short x2, short y2);
+float getX(float x);
+float getY(float y);
 
 class cAutoLogin
 {

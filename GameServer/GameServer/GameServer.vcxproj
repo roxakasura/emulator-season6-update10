@@ -108,7 +108,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_EX603|Win32'">
     <LinkIncremental>false</LinkIncremental>
     <IntDir>Release\GameServer_EX603\</IntDir>
-    <OutDir>C:\RoxGaming - Arquivos\SEASON 6\muserver-season6\GameServer</OutDir>
+    <OutDir>C:\Projetos - RoxGaming\files-update10\muserver-season6\GameServer</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_EX401|Win32'">
     <LinkIncremental>false</LinkIncremental>

@@ -10,6 +10,7 @@
 #define MEM_SCRIPT_ERROR_CODE2 "[%s] Could not read file"
 #define MEM_SCRIPT_ERROR_CODE3 "[%s] Could not get file buffer"
 #define MEM_SCRIPT_ERROR_CODE4 "[%s] The file were not configured correctly"
+#define MEM_SCRIPT_ERROR_CODE5 "[%s] The file is codified in UTF-8 and cannot be read. Change it to ANSI and try again"
 #define MEM_SCRIPT_ERROR_CODEX "[%s] Unknow error code: %d"
 
 enum eTokenResult

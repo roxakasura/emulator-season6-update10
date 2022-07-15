@@ -60,7 +60,7 @@ void cServerSwitch::BindImage()
 	gInterface.BindObject(eADDPOINT4_DIV, 0x7A62, 223, 21, -1, -1);
 	gInterface.BindObject(eADDPOINT4_CLOSE, 0x7EC5, 36, 29, -1, -1);
 	// MenuCustom
-	if (gProtect.m_MainInfo.CustomInterfaceType <= 2)
+	if (gProtect.m_MainInfo.CustomInterfaceType <= 2 || gProtect.m_MainInfo.CustomInterfaceType == 4)
 	{
 		gInterface.BindObject(eADDPOINT5_MAIN, 0x7A5A, 222, 240, -1, -1);
 		gInterface.BindObject(eADDPOINT5_TITLE, 0x7A63, 230, 67, -1, -1);

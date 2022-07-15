@@ -10,6 +10,7 @@
 #include "CSCharacterS13.h"
 #include "InfoLog.h"
 #include "Console.h"
+#include "LoginRemake.h"
 
 void LoginScreenS0(int a1, DWORD *a2)
 {
@@ -361,6 +362,14 @@ void SelectCharInterfaceDowngrade()
 	float x;
 	float X;
 	int CharCreate = 0;
+
+	if(SceneFlag == 4)
+	{
+		if (PointSY1 <= 220)
+		{
+			PointSY1 += 20;		
+		}	
+	}
 
 	if (gProtect.m_MainInfo.SceneCharacterDowngradeType == 0) //97d
 	{
@@ -1334,6 +1343,18 @@ void sub_4D5EC022()
 	sub_4D5EC0R();
 }
 
+void MoveCharacterListName(int iPos_x, int iPos_y, LPCSTR pszText, int iBoxWidth, int iBoxHeight, int iSort, OUT SIZE* lpTextSize)
+{	
+	pSetFont(pTextThis(), (int)pFontBold);
+	pRender_rendertext(g_Fontthis(), iPos_x, iPos_y + 12, pszText, iBoxWidth, iBoxHeight, iSort, lpTextSize);
+}
+
+void ColorCharacterListLevel(LPVOID a1, int color)
+{
+	pSetFont(pTextThis(), (int)pFontNormal2);
+	SetTextColorByHDC(pTextThis(), pMakeColor(0xFFu, 0xFFu, 0xFFu, 0xFFu));
+}
+
 void CSceneS0()
 {
 	if (gProtect.m_MainInfo.SelectServerType == 1)
@@ -1353,12 +1374,16 @@ void CSceneS0()
 
 	if (gProtect.m_MainInfo.SelectCharacterType == 1)
 	{
+		SetCompleteHook(0xE8,0x00401F67,&ColorCharacterListLevel);				//Modificação da cor do nome do personagem
+		SetCompleteHook(0xE8,0x00401EF1,&MoveCharacterListName);				//Deslocamento em Y do nome do Personagem
 		SetCompleteHook(0xE8, 0x004D7534, &EffectSystem);						//Efeito ao selecionar o Personagem
 		SetCompleteHook(0xE8, 0x004D7568, &EffectSystem);						//Efeito ao selecionar o Personagem
 		SetCompleteHook(0xE8,0x401DA0+0xA9,&DisplayInfoBarCharacterPosition);	//Posicionamento das informações dos personagens
 		SetCompleteHook(0xE8, 0x0040464E, &ClassFaceDimension);					//Posicionamento dos avatares das classes
 		SetCompleteHook(0xE9, 0x00403126, 0x00403243);							//Destaca o ESC sobre o Menu Create Char
 		SetCompleteHook(0xE9, 0x00403FA0, &DisplayCreateCharacter);				//Tela de criação de personagem
+
+		MemorySet(0x00401F56,0x90,0x5);											//Remoção dos status do personagem
 		
 		if (gProtect.m_MainInfo.SceneCharacterDowngradeType == 0)
 		{
@@ -1400,7 +1425,7 @@ void CSceneS0()
 		MemorySet(0x004D7465, 0x90, 0x5);										//Remoção dos Efeitos no Chão
 
 		SetByte((PVOID)(0x004D7183), 0);										//Resolução da Tela de Personagem
-		SetDword((PVOID)(0x00401D2F + 1), 51522);									//Removido CharacterEx.tga
+		SetDword((PVOID)(0x00401D2F + 1), 51522);								//Removido CharacterEx.tga
 		SetDword((PVOID)(0x004D7179), 480);										//Resolução da Tela de Personagem
 
 		SetOp((LPVOID)0x0057F159, (LPVOID)SelectCharacterSize1S0, ASM::JMP);	//Tamanho do Personagem PJ1

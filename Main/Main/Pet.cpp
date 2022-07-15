@@ -166,14 +166,14 @@ char CustomPet::PetHPBar(int a1, int a2)
 		PetHP = *(BYTE*)(oUserObjectStruct_ + 5550);
 		lpCharObj test		= &*(ObjectCharacter*)oUserObjectStruct_;
 		
-		if(gProtect.m_MainInfo.CustomInterfaceType == 1 | gProtect.m_MainInfo.CustomInterfaceType == 2)
-		{
-			PetHPBarRemake(1, 50, (int)&PetName, PetHP, 255, 0);
-		}
-		else
-		{
+		//if(gProtect.m_MainInfo.CustomInterfaceType == 1 | gProtect.m_MainInfo.CustomInterfaceType == 2)
+		//{
+		//	PetHPBarRemake(1, 50, (int)&PetName, PetHP, 255, 0);
+		//}
+		//else
+		//{
 			sub_7DFA60(2, 26, (int)&PetName, PetHP, 255, 0);
-		}
+		//}
 		result = 1;
 	}
 
@@ -3928,7 +3928,7 @@ void CustomPet::Load()
 	//	SetOp((LPVOID)0x0048E504, this->CreateEffect, ASM::CALL); //SOURCE EFECTOS PET
 	//	SetOp((LPVOID)0x00503986, this->CreateEffect, ASM::CALL); //SOURCE EFECTOS PET
 		SetCompleteHook(0xE8, 0x00566237, &sub_959FA0); //reorganiza o pet custom 
-		SetCompleteHook(0xE9, 0x00552710, &PlayerAnimationMonturaSkill); //-- Player Animation All Skill [SM], [BUFF ELF]
+		//SetCompleteHook(0xE9, 0x00552710, &PlayerAnimationMonturaSkill); //-- Player Animation All Skill [SM], [BUFF ELF]
 		//-- Increase Speed Move
 		SetCompleteHook(0xE9, 0x00564BA2, &PlayerAnimation1_MoveSpeed); //-- Player Animation Fenrir
 		SetCompleteHook(0xE9, 0x00564C1C, &PlayerAnimation2_MoveSpeed); //-- Player Animation Horse

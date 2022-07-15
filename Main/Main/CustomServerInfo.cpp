@@ -6,6 +6,7 @@
 #include "Import.h"
 #include "ReadScript.h"
 #include "CustomMessage.h"
+#include "Protect.h"
 
 CServerInfo g_ServerInfo;
 
@@ -37,7 +38,10 @@ void CServerInfo::Load()
     SetOp((LPVOID)0x009540EE, this->ServerDrawTextHook, ASM::CALL); //1.04E
     SetOp((LPVOID)0x00954121, this->ServerDrawTextHook, ASM::CALL); //1.04E
     SetOp((LPVOID)0x00954154, this->ServerDrawTextHook, ASM::CALL); //1.04E
-	SetOp((LPVOID)0x0040B738, this->ServerDrawTextHook, ASM::CALL); //1.04E
+	if(gProtect.m_MainInfo.SelectServerType != 1)
+	{
+		SetOp((LPVOID)0x0040B738, this->ServerDrawTextHook, ASM::CALL); //1.04E
+	}
 	SetOp((LPVOID)0x0077F861, this->ServerDrawTextHook, ASM::CALL); //1.04E
 	SetOp((LPVOID)0x0077F98B, this->ServerDrawTextHook, ASM::CALL); //1.04E
 }
